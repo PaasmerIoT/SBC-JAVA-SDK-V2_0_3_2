@@ -1,0 +1,29 @@
+Logfile for Installing Paasmer...
+/home/pi/paasmer-java/SBC-JAVA-SDK-V2_0_3_1-master
+/home/root
+--> Installing...
+
+
+ArunTestDevice
+SSH is enabled and the default password for the 'pi' user has not been changed. This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password. { "thingArn": "arn:aws:iot:us-west-2:039065299133:thing/39d3238e-c91b-11e7-b061-8f38ecee249d", "thingName": "39d3238e-c91b-11e7-b061-8f38ecee249d" }
+"arn:aws:iot:us-west-2:039065299133:cert/523c8142924a3bdcd0034fd67a782f39f5c1214c4f25b707bfe9d26dda4647ba"
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+{
+    "policyName": "39d3238e-c91b-11e7-b061-8f38ecee249d", 
+    "policyArn": "arn:aws:iot:us-west-2:039065299133:policy/39d3238e-c91b-11e7-b061-8f38ecee249d", 
+    "policyDocument": "{ \"Version\": \"2012-10-17\", \"Statement\": [{\"Action\": [\"iot:*\"], \"Resource\": [\"*\"], \"Effect\": \"Allow\" }] }", 
+    "policyVersionId": "1"
+}
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+File Transfered successfully....
+ArunTestDevice
