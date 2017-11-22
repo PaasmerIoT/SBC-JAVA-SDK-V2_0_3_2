@@ -56,9 +56,15 @@ feed = [{"name":"javafeed1","type":"sensor","pin":3},{"name":"javafeed2","type":
 ```
 * Redirect back to the main directory and continue the Execution procedure.
 ##### Using web interface
-* Login to http://dashboard.paasmer.co/, create a device and download the credentials. 
-* Copy the credential files from downloads and place them in the below directory of an sdk. 
-src/main/resources/com/paasmer/devicesdkjava/util/
+* Login to http://developers.paasmer.co/, create a device and fill the feed details.
+* Click on `save` icon to save changes. 
+* After completion, Go to the `SDK` directory and run the command below.
+
+```
+sudo ./Update.sh
+```
+* This will ask for the UserName, DeviceName and Password. Give the DeviceName which is created in the Web UI.
+* This will automatically download the necessary credentials and the config file, and place them in the respective directory.
 
 # Execution
  Compiling the code and generate the output file. 
@@ -71,6 +77,11 @@ $ mvn clean package
 $ java -cp target/sbc-java-sdk-2.0.3.2-SNAPSHOT.jar com.paasmer.devicesdkjava.App
 ```
 The device would now be connected to the Paasmer IoT Platform and publishing sensor values are specified intervals.
+
+*User can update the feed details for any Device in the WeB UI followed by running the below command`*
+```
+sudo ./Update.sh
+```
 
 ## Support
 The support forum is hosted on the GitHub, issues can be identified by users and the Team from Paasmer would be taking up requests and resolving them. You could also send a mail to support@paasmer.co with the issue details for a quick resolution.
