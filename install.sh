@@ -8,7 +8,7 @@
 # config
 mirror=http://mirror.cc.columbia.edu/pub
 #mirror=http://www-us.apache.org/dist
-mvnversion=3.5.0
+mvnversion=3.5.3
 p=`pwd`
 # install
 mvnidentifier="apache-maven-${mvnversion}"
